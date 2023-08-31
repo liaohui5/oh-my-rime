@@ -1,0 +1,21 @@
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "menu/page_size": 6 # 候选词数量
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code
+    Control_L: noop   # 不做任何操作
+    Control_R: noop   # 不做任何操作
+    Shift_L: noop     # 不做任何操作
+    Shift_R: inline_ascii
+  "key_binder/bindings":
+    - { accept: "Control+Shift+E", toggle: es_conversion, when: always }
+    - { accept: bracketleft, send: Page_Up, when: paging }
+    - { accept: bracketright, send: Page_Down, when: has_menu }
+  schema_list:
+    - { schema: rime_mint } # 薄荷拼音
+  "switcher/hotkeys":
+    - "Control+grave"
+  "translator/enable_encoder": true
+  "translator/enable_sentence": true
+  "translator/enable_user_dict": true
+  "translator/encode_commit_history": true
