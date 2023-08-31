@@ -1,6 +1,6 @@
-![样式](demo.webp)
+## [fork from oh-my-rime](https://github.com/Mintimate/oh-my-rime)
 
-- [fork from oh-my-rime](https://github.com/Mintimate/oh-my-rime)
+![样式](demo.webp)
 
 一套快速初始化 rime 的模板，因为平时我使用 `oh-my-zsh`，在使用 rime 时候，有种用`omz`的感觉；所以我给它取名叫`oh-my-rime`，你也可以叫它`薄荷拼音`，亦或者`Mint`。
 
